@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f4f6f8;
+            background-color: #f0f4f8;
             color: #333;
             margin: 0;
             padding: 20px;
@@ -21,13 +21,14 @@
             width: 100%;
             max-width: 400px;
             border-radius: 16px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 15px rgba(0, 82, 165, 0.1);
             overflow: hidden;
             text-align: center;
             padding: 24px;
+            border-top: 5px solid #0052a5;
         }
         .colonia-badge {
-            background-color: #2b7a78;
+            background-color: #0052a5;
             color: white;
             font-size: 12px;
             font-weight: bold;
@@ -42,89 +43,77 @@
             height: 120px;
             border-radius: 50%;
             object-fit: cover;
-            border: 4px solid #f0f0f0;
+            border: 4px solid #e1ecf8;
             margin-bottom: 15px;
         }
         h1 {
             font-size: 22px;
             margin: 0 0 5px 0;
-            color: #17252a;
+            color: #0a2540;
         }
         .status {
             font-size: 14px;
-            color: #3aafa9;
+            color: #0052a5;
             font-weight: 600;
             margin-bottom: 20px;
         }
         .info-box {
-            background: #f8f9fa;
+            background: #f4f8fc;
             border-radius: 10px;
             padding: 12px;
             margin-bottom: 20px;
             text-align: left;
             font-size: 14px;
+            border-left: 4px solid #0052a5;
         }
         .info-box p {
             margin: 6px 0;
         }
         .btn-alert {
             display: block;
-            background-color: #e63946;
+            background-color: #d93838;
             color: white;
             text-decoration: none;
             padding: 14px;
             border-radius: 8px;
             font-weight: bold;
             font-size: 15px;
-            box-shadow: 0 3px 8px rgba(230, 57, 70, 0.3);
+            box-shadow: 0 3px 8px rgba(217, 56, 56, 0.3);
             transition: background 0.2s;
         }
         .btn-alert:hover {
-            background-color: #d90429;
+            background-color: #b52b2b;
         }
         .footer {
             margin-top: 25px;
             font-size: 11px;
-            color: #888;
-            border-top: 1px solid #eee;
+            color: #657786;
+            border-top: 1px solid #e1ecf8;
             padding-top: 15px;
         }
         .footer strong {
-            color: #2b7a78;
+            color: #0052a5;
         }
     </style>
 </head>
 <body>
-
     <div class="card">
-        <!-- Etiqueta de la Colonia -->
-        <div class="colonia-badge">Colonia Parque Norte (Verde)</div>
-
-        <!-- Foto del Gato -->
+        <div class="colonia-badge">Colonia Parque Norte (Azul)</div>
         <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=300&h=300&fit=crop" alt="Gato de colonia" class="cat-img">
-
-        <!-- Identificación -->
         <h1>Gato #01 - "Peluso"</h1>
         <div class="status">✔ Esterilizado (Protocolo CER)</div>
-
-        <!-- Detalles informativos -->
         <div class="info-box">
             <p><strong>Ubicación:</strong> Zona contenedores / Parque Norte</p>
             <p><strong>Estado sanitario:</strong> Controlado y vacunado</p>
             <p><strong>Gestión:</strong> Protectora Felina Local</p>
         </div>
-
-        <!-- Botón de acción rápida para el ciudadano o policía -->
-        <a href="https://wa.me/34600000000?text=Hola,%20he%20encontrado%20al%20gato%20%2301%20de%20la%20colonia%20Parque%20Norte" class="btn-alert">
+        <a href="https://wa.me/34600000000?text=Hola,%20he%20encontrado%20al%20gato%20%2301" class="btn-alert">
             🚨 Avisar de Incidencia / Urgencia
         </a>
-
-        <!-- Pie de página con tu marca -->
         <div class="footer">
             Sistema NFC gestionado por <strong>Dehesa 3D</strong><br>
             Soluciones tecnológicas para colonias felinas
         </div>
     </div>
-
 </body>
 </html>
